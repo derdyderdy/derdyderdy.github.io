@@ -8,6 +8,11 @@ body{
 h1{
 	text-align:center;
 }
+
+a{
+  text-decoration: none;
+}
+
 p{
 	padding:10px;
 }
