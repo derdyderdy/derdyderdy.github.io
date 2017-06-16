@@ -599,6 +599,7 @@ footer{
   	color:black;
 }
 .mastera blockquote .botton {
+	    background: -webkit-gradient(linear, left bottom, left top, color-stop(20%, #10e017), color-stop(50%, #34d456), color-stop(80%, #7fea78));
 	    background: linear-gradient(to top, #10e017 20%, #34d456 50%, #7fea78 80%);
 		text-decoration:none;
     font-size: 24px;
@@ -615,6 +616,7 @@ footer{
 }
 
 .botton  {
+	    background: -webkit-gradient(linear, left bottom, left top, color-stop(20%, #10e017), color-stop(50%, #34d456), color-stop(80%, #7fea78));
 	    background: linear-gradient(to top, #10e017 20%, #34d456 50%, #7fea78 80%);
 		text-decoration:none;
     font-size: 24px;
@@ -641,7 +643,8 @@ footer{
     display: block;
     top: 153px;
     right: 6%;
-    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
  
 }
 .zdes:before{
@@ -670,6 +673,7 @@ footer{
     margin: 30px auto;
 }
 .botton:hover{
+	   background: -webkit-gradient(linear, left bottom, left top, color-stop(20%, #52c056), color-stop(50%, #34d456), color-stop(80%, #7fea78));
 	   background: linear-gradient(to top, #52c056 20%, #34d456 50%, #7fea78 80%);
     text-decoration: none;
     font-size: 24px;
@@ -702,22 +706,45 @@ footer{
     left: -96px;
 	height: 37px;
 	position:relative;
-	animation: strela 2.0s cubic-bezier(0.6, 0.18, 1, 1) infinite reverse;
+	-webkit-animation: strela 2.0s cubic-bezier(0.6, 0.18, 1, 1) infinite reverse;
+	        animation: strela 2.0s cubic-bezier(0.6, 0.18, 1, 1) infinite reverse;
 }
-@keyframes strela {
+@-webkit-keyframes strela {
 	0% {
     right: 20px;
-    transform: rotate(-23deg);
+    -webkit-transform: rotate(-23deg);
+            transform: rotate(-23deg);
 }
 
 50% {
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
     right: 10px;
 }
 
 100% {
     right: 0px;
-    transform: rotate(21deg);
+    -webkit-transform: rotate(21deg);
+            transform: rotate(21deg);
+}
+}
+@keyframes strela {
+	0% {
+    right: 20px;
+    -webkit-transform: rotate(-23deg);
+            transform: rotate(-23deg);
+}
+
+50% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    right: 10px;
+}
+
+100% {
+    right: 0px;
+    -webkit-transform: rotate(21deg);
+            transform: rotate(21deg);
 }
 }
 #circle{
@@ -727,8 +754,6 @@ footer{
     width: 38px;
     height: 74px;
     background: rgba(255, 255, 255, 0.51);
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
     border-radius: 50px;
 }
 
@@ -798,6 +823,7 @@ width: 10px;
     right: 27px;
 }
 .mastera blockquote .botton:hover{
+	   background: -webkit-gradient(linear, left bottom, left top, color-stop(20%, #52c056), color-stop(50%, #34d456), color-stop(80%, #7fea78));
 	   background: linear-gradient(to top, #52c056 20%, #34d456 50%, #7fea78 80%);
     text-decoration: none;
     font-size: 24px;
@@ -832,26 +858,53 @@ width: 10px;
     position: fixed;
     bottom: -2px;
     right: 0px;}
-@keyframes rock{
+@-webkit-keyframes rock{
 	0% {
-    transform: scaleY(1.19);
+    -webkit-transform: scaleY(1.19);
+            transform: scaleY(1.19);
 }
 
 33% {
-    transform: scaleY(1.29);
+    -webkit-transform: scaleY(1.29);
+            transform: scaleY(1.29);
 }
 
 66% {
-    transform: scaleY(1.19);
+    -webkit-transform: scaleY(1.19);
+            transform: scaleY(1.19);
 }
 
 100% {
-    transform: scaleY(1.39);
+    -webkit-transform: scaleY(1.39);
+            transform: scaleY(1.39);
+}
+}
+@keyframes rock{
+	0% {
+    -webkit-transform: scaleY(1.19);
+            transform: scaleY(1.19);
+}
+
+33% {
+    -webkit-transform: scaleY(1.29);
+            transform: scaleY(1.29);
+}
+
+66% {
+    -webkit-transform: scaleY(1.19);
+            transform: scaleY(1.19);
+}
+
+100% {
+    -webkit-transform: scaleY(1.39);
+            transform: scaleY(1.39);
 }
 }
 .roketa:hover{
 	
-	animation:rock 2s infinite;
+	-webkit-animation:rock 2s infinite;
+	
+	        animation:rock 2s infinite;
 }
 
 
